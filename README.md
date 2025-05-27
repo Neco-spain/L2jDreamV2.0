@@ -1,4 +1,4 @@
-# L2jDreamV2Source
+# L2jDreamV2 Source r225 (sem gguard)
 
 ========
 
