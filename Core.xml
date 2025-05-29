@@ -102,6 +102,7 @@
 				<attribute name="Implementation-Build" value="${revision}" />
 			</manifest>
 		</jar>
+		<!-- 
 		<jar destfile="${build}/game/data/scripts/script.jar" level="9">
 			<fileset dir="${scripts}/bin">
 			</fileset>
@@ -110,6 +111,7 @@
 				<attribute name="Build-Date" value="${build.tstamp}" />
 			</manifest>
 		</jar>
+		-->
 	</target>
 
 	<target name="Full" depends="Version,Core" description="Create the jar files.">
