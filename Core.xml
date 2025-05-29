@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Core" default="Core" basedir=".">
+	<description>
+		This script will build the GameServer, LoginServer and Commons.
+	</description>
+
+	<tstamp>
+		<format property="build.tstamp"
+				pattern="dd-MM-yyyy"
+				locale="pt,BR"/>
+	</tstamp>
+
+	<property name="auth" location="Dream_Auth" />
+	<property name="game" location="Dream_GameServer" />
+	<property name="commons" location="Dream_Commons" />
+	<property name="scripts" location="Dream_Scripts" />
+	<property name="guard" location="Dream_Guard" />
+
+	<property name="revision" value="235" />
+
+	<property name="dist" location="Dream_DataPack" />
+	<property name="build" location="Build" />
+	<property name="tool" location="Tools" />
+	<property name="doc" location="Doc" />
+
+	<path id="libs">
+		<fileset dir="${dist}/libs">
+			<include name="*.jar" />
+		</fileset>
+	</path>
+
+	<target name="Clean" description="Remove the output directories.">
+		<delete dir="${build}" />
+		<delete dir="${auth}/bin" />
+		<delete dir="${commons}/bin" />
+		<delete dir="${game}/bin" />
+		<delete dir="${scripts}/bin" />
+	</target>
+
+	<target name="Init" depends="Clean" description="Create the output directories.">
+		<mkdir dir="${build}" />
+		<mkdir dir="${auth}/bin" />
+		<mkdir dir="${commons}/bin" />
+		<mkdir dir="${game}/bin" />
+		<mkdir dir="${scripts}/bin" />
+	</target>
+
+	<target name="Commons" depends="" description="Compile GameServer Commons.">
+		<javac srcdir="${commons}/src" classpathref="libs" destdir="${commons}/bin" optimize="on" encoding="UTF-8" compiler="javac1.8" debug="true" debuglevel="lines,vars,source" includeantruntime="false" source="1.8" target="1.8" />
+	</target>
+	<target name="Auth" depends="" description="Compile AuthServer Sources.">
+		<javac srcdir="${auth}/src" classpathref="libs" destdir="${auth}/bin" optimize="on" encoding="UTF-8" compiler="javac1.8" debug="true" debuglevel="lines,vars,source" includeantruntime="false" source="1.8" target="1.8" />
+	</target>
+	<target name="Game" depends="" description="Compile GameServer Sources.">
+		<javac srcdir="${game}/src" classpathref="libs" destdir="${game}/bin" optimize="on" encoding="UTF-8" compiler="javac1.8" debug="true" debuglevel="lines,vars,source" includeantruntime="false" source="1.8" target="1.8" />
+	</target>
+	<target name="Scripts" depends="" description="Compile Scripts.">
+		<javac srcdir="${scripts}/src" classpathref="libs" destdir="${scripts}/bin" optimize="on" encoding="UTF-8" compiler="javac1.8" debug="true" debuglevel="lines,vars,source" includeantruntime="true" source="1.8" target="1.8" />
+	</target>
+	<target name="Guard" depends="" description="Compile Spartan.">
+		<delete dir="${guard}/bin" />
+		<mkdir dir="${guard}/bin" />
+		<javac srcdir="${guard}/src" classpathref="libs" destdir="${guard}/bin" encoding="UTF-8" compiler="javac1.8" debug="true" debuglevel="lines,vars,source" includeantruntime="false" source="1.8" target="1.8" />
+	</target>
+
+	<target name="SpartanGuard" depends="Guard" description="Compile Spartan Sources.">
+		<jar destfile="${build}/libs/SpartanGuardExt.jar" level="9">
+			<fileset dir="${guard}/bin">
+			</fileset>
+			<manifest>
+				<attribute name="Build-By" value="${user.name}" />
+				<attribute name="Build-Date" value="${build.tstamp}" />
+			</manifest>
+		</jar>
+	</target>
+
+	<target name="Core" depends="Init,Commons,Auth,Game" description="Compile GameServer Sources.">
+		<jar destfile="${build}/libs/dream-commons.jar" level="9">
+			<fileset dir="${commons}/bin">
+			</fileset>
+			<manifest>
+				<attribute name="Build-By" value="${user.name}" />
+				<attribute name="Build-Date" value="${build.tstamp}" />
+			</manifest>
+		</jar>
+
+		<jar destfile="${build}/libs/auth.jar" level="9">
+			<fileset dir="${auth}/bin">
+			</fileset>
+			<manifest>
+				<attribute name="Build-By" value="${user.name}" />
+				<attribute name="Build-Date" value="${build.tstamp}" />
+			</manifest>
+		</jar>
+
+		<jar destfile="${build}/libs/game.jar" level="9">
+			<fileset dir="${game}/bin">
+			</fileset>
+			<manifest>
+				<attribute name="Build-By" value="${user.name}" />
+				<attribute name="Build-Date" value="${build.tstamp}" />
+				<attribute name="Implementation-Build" value="${revision}" />
+			</manifest>
+		</jar>
+		<jar destfile="${build}/game/data/scripts/script.jar" level="9">
+			<fileset dir="${scripts}/bin">
+			</fileset>
+			<manifest>
+				<attribute name="Build-By" value="${user.name}" />
+				<attribute name="Build-Date" value="${build.tstamp}" />
+			</manifest>
+		</jar>
+	</target>
+
+	<target name="Full" depends="Version,Core" description="Create the jar files.">
+		<copy todir="./Dream_DataPack/" includeemptydirs="true">
+			<fileset dir="${build}/" />
+		</copy>
+	</target>
+
+	<target name="Release" depends="Version,Changelog,Full">
+		<echo message="Compressing compiled revision Pack." />
+		<exec dir="." executable="svnversion" outputproperty="revision" failifexecutionfails="false">
+			<arg line="-n ." />
+		</exec>
+		<exec executable="${tool}/7-Zip/7z.exe" failifexecutionfails="true" outputproperty="sevenzip_output">
+			<arg line="a -mx=9 -m0=LZMA ${dist}/L2JDreamV2_r${revision}M.7z ${dist}/*" />
+		</exec>
+	</target>
+
+	<target name="Version">
+		<tstamp>
+			<format property="tstamp" pattern="yyyy-MM-dd HH:mm:ss" />
+		</tstamp>
+		<exec dir="." executable="svnversion" outputproperty="revision" failifexecutionfails="false">
+			<arg line="-n ." />
+		</exec>
+		<concat destfile="${dist}/game/config/revision.properties">
+			Version = ${revision}
+			BuildDate = ${tstamp}
+			Detailed Info: L2JDream Project www.l2jdream.club
+		</concat>
+		<concat destfile="${dist}/game/config/revision.properties" append="true">
+			<filelist dir="../.svn/" files="entries" />
+			<filterchain>
+				<prefixlines prefix="    " />
+				<headfilter lines="8" skip="4" />
+				<tokenfilter>
+					<ignoreblank />
+				</tokenfilter>
+			</filterchain>
+		</concat>
+		<echo message="Revision: ${revision}" />
+	</target>
+
+	<target name="Changelog">
+		<echo message="Generating Changelog." />
+		<exec dir="." executable="svn" outputproperty="changelog">
+			<arg value="log" />
+			<arg value="--stop-on-copy" />
+		</exec>
+		<tstamp>
+			<format property="build.tstamp" pattern="dd/MM/yyyy HH:mm:ss" />
+		</tstamp>
+		<exec dir="." executable="svnversion" outputproperty="l2j.version" />
+	</target>
+
+
+</project>

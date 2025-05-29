@@ -1,0 +1,724 @@
+------------------------------------------------------------------------
+r125 | Wallz | 2025-05-28 11:42:22 -0300 (qua, 28 mai 2025) | 1 line
+
+Updating SpartanGuardExt.jar to new version
+------------------------------------------------------------------------
+r124 | Wallz | 2024-05-12 15:53:27 -0300 (dom, 12 mai 2024) | 1 line
+
+Reworked to SpartanGuard for L2JDream V2
+------------------------------------------------------------------------
+r123 | Wallz | 2024-05-02 00:35:20 -0300 (qui, 02 mai 2024) | 1 line
+
+------------------------------------------------------------------------
+r122 | Wallz | 2024-04-19 20:35:09 -0300 (sex, 19 abr 2024) | 1 line
+Update Libs jython fix
+------------------------------------------------------------------------
+r121 | Wallz | 2024-04-19 04:57:03 -0300 (sex, 19 abr 2024) | 2 lines
+
+Added Spartan 3 Service
+Added HWID Service
+------------------------------------------------------------------------
+r120 | Wallz | 2024-04-18 21:04:17 -0300 (qui, 18 abr 2024) | 1 line
+
+------------------------------------------------------------------------
+r119 | Wallz | 2023-02-06 19:52:33 -0300 (seg, 06 fev 2023) | 1 line
+
+------------------------------------------------------------------------
+r118 | Wallz | 2022-05-10 13:37:15 -0300 (ter, 10 mai 2022) | 1 line
+
+Update DreamGuard 3.3.2165 + UniqueClientKey
+------------------------------------------------------------------------
+r117 | Wallz | 2022-05-05 16:35:22 -0300 (qui, 05 mai 2022) | 1 line
+
+------------------------------------------------------------------------
+r116 | Wallz | 2022-04-29 23:10:31 -0300 (sex, 29 abr 2022) | 1 line
+
+Upgrading source builder from Eclipse to IntelliJ IDEA compiler
+&& NOVOS IDS ITENS V2 + ARENA DUEL CORE
+------------------------------------------------------------------------
+r115 | Wallz | 2022-04-02 00:33:46 -0300 (s�b, 02 abr 2022) | 1 line
+
+add GeoEngine clientZ check 
+------------------------------------------------------------------------
+r114 | Wallz | 2022-02-14 18:15:05 -0300 (seg, 14 fev 2022) | 1 line
+
+DreamGuard 3.0 + Geodata FIX + Skill Sweep + Novos IDS item
+------------------------------------------------------------------------
+r113 | Wallz | 2020-02-14 00:49:22 -0300 (sex, 14 fev 2020) | 16 lines
+
+-Fix CommandChannel Frintezza
+-Fix Baium CUBE
+-Fix mod quake system
+-Fix pvp msg
+-Fix msg do soul crystal
+-Fix msg do magic crt
+-Add confg de max player por clan 
+-Add mod de skin Dressme
+-Add mod de start
+-Add nascer bufado
+-Add mod enchant
+-Add mod de ganhar skill por tempo
+-Add mod de ganhar item quando cria o char
+-Add mod de logar o char e vir sem aquela quest inicial
+-Add html padr�o pra aio ( qlq npc gk q ele clicar tem a msm html)
+-Add mod max lvl 85
+------------------------------------------------------------------------
+r112 | Wallz | 2019-12-15 23:51:19 -0300 (dom, 15 dez 2019) | 1 line
+
+Protocolo 756 nova system 2020
+------------------------------------------------------------------------
+r111 | Wallz | 2019-11-24 14:39:06 -0300 (dom, 24 nov 2019) | 5 lines
+
+- fixado a Skill Touch of Death com seus efeitos agora 100% retail
+- Finaliza��o do efeito Transfer Pain casado com seus packets de acordo com L2OFF 100% agora
+- Status de todos os RB agora com o adicional dos atributos de CON, DEX, WIT, MEN, STR e INT
+- Fixado alguns Skills de Raid Bosses
+- Fixado a Quest de Upar o Strider, (Adicionado dos Ghosts da Quest)
+------------------------------------------------------------------------
+r110 | Wallz | 2019-10-30 00:38:47 -0300 (qua, 30 out 2019) | 3 lines
+
+Adicionado uma html que faltava no castle "chamberlain-toohightaxrate.htm"
+Fix do ud do valakas & do big head de hots springs pra n ocupar slots
+HotSprings agora d� o debuff de big head igual l2 off
+------------------------------------------------------------------------
+r109 | Wallz | 2019-10-30 00:00:36 -0300 (qua, 30 out 2019) | 3 lines
+
+Adicionada Config para manter porta do Zaken aberta permanentemente
+Adicionado Restri��o NoStrider para coibir uso de montaria em zonas
+Reformulando mod Banking comandos .deposit .withdraw
+------------------------------------------------------------------------
+r108 | Wallz | 2019-10-29 19:47:13 -0300 (ter, 29 out 2019) | 2 lines
+
+Mudan�as no m�todo de contagem de respawn do Baium.
+Fix chat do npc de Sepulcher Gatekeeper-no...
+------------------------------------------------------------------------
+r107 | Wallz | 2019-10-29 19:43:46 -0300 (ter, 29 out 2019) | 1 line
+
+Fix TransferPain
+------------------------------------------------------------------------
+r106 | Wallz | 2019-10-17 13:48:31 -0300 (qui, 17 out 2019) | 8 lines
+
+- ADICIONADO PACKET DE DANO PARA PET/ PET OWNER QUANDO O DANO � RECEBIDO COM A SKILL TRANSFEIR PAIN LIGADA
+- ADICINADO PACKETS DO DANO CAUSADO VIA REFLECT AO JOGADOR CAUSADOR DO DANO
+- CORRIDIGO O PACKET DE DEBUFFS FISICOS QUE ESTAVA INVERTIDO
+- ADICIONADA UMA FUN��O DE NOICO PARA FUN��ES DE DEBUFFS QUE APARECIAM DUPLICADAS
+- REMOVIDO A MENSAGEM DE RECEP��O NUMERAL PARA HEALS EM PERCENTUAL
+- CORRIGIDO ALGUNS EFEITOS DE SKILL HEAL
+- CORRIGO LEVEL DA SKILL VENGEANCE
+- CORRIDIGO O EFFEITO REMOVE CP DA SKILL TOUCH OF DEATH
+------------------------------------------------------------------------
+r105 | Wallz | 2019-10-10 23:42:43 -0300 (qui, 10 out 2019) | 2 lines
+
+Fix nas quests de 3a job (q70 ATE q100) para tirar um poss�vel Exploit causado por players que furam a ordem de matar npcs ta 3a tablet.
+Fix na quest 620_FourGoblets
+------------------------------------------------------------------------
+r104 | Wallz | 2019-10-10 23:32:09 -0300 (qui, 10 out 2019) | 4 lines
+
+- CORRIGIDO PACKET DE MENSAGEM DE CP HEAL ENVIADO PARA OS BONECOS CURADOS VALOR REAL DA CURA DE CP
+- CORRIGIDO PACKET DE MENSAGEM DE MP HEAL ENVIADO PARA OS BONECOS CURADOS VALOR REAL DA CURA DE MANA
+- CORRIGIDO PACKET DE MENSAGEM DE HEAL ENVIADO PARA OS BONECOS CURADOS VALOR REAL DA CURA EM COMBATE
+
+------------------------------------------------------------------------
+r103 | Wallz | 2019-10-10 23:23:13 -0300 (qui, 10 out 2019) | 3 lines
+
+Aumentando tempo de selecionar buffs a venda no BuffShop para 10 Minutos
+Melhorias no packet de AddHenna e RemoveHenna para atualizar status imediatamente
+Melhorias no mod de restri��o de skills em Olympiad..
+------------------------------------------------------------------------
+r102 | Wallz | 2019-10-05 19:11:15 -0300 (s�b, 05 out 2019) | 3 lines
+
+Fix para pequeno problema ao ler a configura��o options.properties
+Fix algumas HTML do ClassMaster Edit�vel via py que foram erradas (scripts/custom 7001, 7002 e 7003)
+Fix do ID do NPC Tournament adicionado na 191
+------------------------------------------------------------------------
+r101 | Wallz | 2019-10-04 16:42:06 -0300 (sex, 04 out 2019) | 3 lines
+
+Adicionando TOURNAMENT 1x1
+Adicionado ARENA RANKING
+
+------------------------------------------------------------------------
+r100 | Wallz | 2019-10-04 15:30:04 -0300 (sex, 04 out 2019) | 19 lines
+
+- ARRUMADO FORMULA RETAIL INTERLUDE PARA O EVASION DOS BONECOS
+- ARRUMADO FORMULA RETAIL INTERLUDE PARA O ACURRACY DOS BONECOS
+- ADICIONADO UMA PROTE�AO ANT LOSE DE ADENA PADRAO L2OFF *QUANDO O BONECO ESTA FULL ADENA, O BONECO NAO PEGA MAIS ADENAS*
+- ADICIONADO PACKETS DE MENSAGEM DE VENDA QUE FALTAVAM NA PACK
+- CORRIGIDA A MENSAGEM PADRAO L2OFF COM TODAS AS INFORMA��ES DO COMANDO /OLYMPIADSTAT
+- CORRIGIDO UM BUG REFERENTE AO REMOVE FIRST BUFF NA CONDICAO STACK TYPE \O/ *GRA�AS A DEUS BUG FILHO DA PUTA*
+- CORRIGIDO P ATK. E M.ATK DE TODAS AS ARMAS DE HERO
+- ADICIONADO UM NPC DE SERVICOS COMPLETO NA PACK VIA .PY *CREDITO DANIEL MELLO*
+- CORRIGIDA HTML DOS SET TIME SIEGE //ADMIN
+- CORRIGIDO OS VALORES DE HEAL, AGORA O M.ATK INFLUENCIA NO VALOR DE HEAL COMO L2OFF
+- CORRIGIDO PACKET DE MENSAGEM DE HEAL ENVIADO PARA OS BONECOS CURADOS VALOR REAL DA CURA
+- CORRIGIDO MAIS ALGUNS SKILLS EM GERAL
+- CORRIGIDO O SKILL TREE UPGRADE PARA AS SKILLS DIVINE INSPIRATION LVL 76 / 78
+- ADICIONADO UM NPC CLASS MASTER EM .PY PARA A PACK 
+- ADICIONADO UM GM SHOP BEM COMPLETO A PACK
+- FIXADO UM BUG QUE AO SUMMONAR O PET EM MODO PK ELE VINHA COM STATUS NORMAL
+- FIXADO UM BUG QUE APOS RETIRAR O KARMA O PET CONTINUAVA PK
+- FIXADO ALGUNS PACKETS DE SYSMSG RELACIONADOS A LOSE ITEM / ACQUIRE ITEM
+- FIXADO UM BUG DE TEMPLATE NOS NPCS AO RECEBEREM DEBUFF
+------------------------------------------------------------------------
+r99 | Wallz | 2019-10-04 15:10:27 -0300 (sex, 04 out 2019) | 2 lines
+
+- ADICIONADO PROTECOES ANT BUG E EXPLOIT QUE FALTARAM EM TODAS AS 3RD JOB
+- ADICIONADO A FUN�AO DE AUTOCHAT EM 10 QUESTS QUE NAO TINHAM A FUN�AO
+------------------------------------------------------------------------
+r98 | Wallz | 2019-10-04 14:27:31 -0300 (sex, 04 out 2019) | 11 lines
+
+Adicionando Scripts Custom Editaveis em data\scripts\custom 
+-AIOSeller
+-ClanManager
+-HeroSeller
+-KarmaClean
+-Delevel & LevelUp
+-NameManager
+-NoblessSeller
+-PkClean
+-VipSeller
+-ClassMaster
+------------------------------------------------------------------------
+r97 | Wallz | 2019-10-04 14:23:33 -0300 (sex, 04 out 2019) | 1 line
+
+Fix HTML painel admin para Castle Control Panel e teleport para areas da cidade de goddard
+------------------------------------------------------------------------
+r96 | Wallz | 2019-10-04 14:21:56 -0300 (sex, 04 out 2019) | 1 line
+
+HTML para npcs explicarem o motivo para recusarem a falar com Player PK.
+------------------------------------------------------------------------
+r95 | Wallz | 2019-09-13 14:04:51 -0300 (sex, 13 set 2019) | 1 line
+
+Adicionando anuncios L2OFF like (via config)
+------------------------------------------------------------------------
+r94 | Wallz | 2019-09-11 19:03:43 -0300 (qua, 11 set 2019) | 7 lines
+
+- FIXADO O 2ND LETHAL QUE RETIRA SOMENTE CP DE PLAYERS E 50% DE HP DE NPCS
+- FIXADO O LETHAL FULL
+- ADICIONADA AS MENSAGENS DE LETHAL SUCESSFUL (PADR�O L2OFF)
+- ADICIONADA AS NOMENCLATURAS DE RESIST PARA TODOS OS DEBUFFS EXISTENTES
+- ADICIONADA AS NOMENCLATURAS DE STATUS RESIST ATRIBUTO PARA TODOS OS DEBUFFS EXISTENTES
+- ADICIONADO DAMAGE INFORMATION DE PETS / SUMMONS QUE ESTAVAM FALTANDO
+- CORRIGIDO PROBLEMA DE SUMONAR PET EM OLYMPIADAS
+------------------------------------------------------------------------
+r93 | Wallz | 2019-08-29 20:23:22 -0300 (qui, 29 ago 2019) | 1 line
+
+Movendo configura��es do AntiBot CAPTCHA para o arquivo DreamGuard.properties
+------------------------------------------------------------------------
+r92 | Wallz | 2019-08-28 16:01:20 -0300 (qua, 28 ago 2019) | 2 lines
+
+-Adicionado o Efeito de cura ao adentrar as Arenas das Olympiadas (configuravel)
+
+------------------------------------------------------------------------
+r91 | Wallz | 2019-08-28 15:59:06 -0300 (qua, 28 ago 2019) | 2 lines
+
+-Reescritas e agora com sua fun��o 100% oficial por�m em .py todas as sagas de 3rd JOB:
+-Fixado um Bug ao final de todas as quests de 2nd job que triplicava os itens recebidos (Shadow Coupon)
+------------------------------------------------------------------------
+r90 | Wallz | 2019-07-25 16:39:12 -0300 (qui, 25 jul 2019) | 4 lines
+
+-Fix para problema de perder EXP usando skills Poison e dano DOT
+-Fix do Reflect de tankers ( Agora todas as magias e danos f�sicos sao refletidos como no L2OFF, n�o somente dano corpo a corpo)
+-Melhorias de desempenho
+-Fix em AI de FOG MOBS adi��o do mob Necro
+------------------------------------------------------------------------
+r89 | Wallz | 2019-07-25 16:36:52 -0300 (qui, 25 jul 2019) | 1 line
+
+Pequena Fix nos start buff da oly
+------------------------------------------------------------------------
+r88 | Wallz | 2019-07-25 16:34:54 -0300 (qui, 25 jul 2019) | 1 line
+
+Fix para Nobless poder Teleportar para zonas em siege
+------------------------------------------------------------------------
+r87 | Wallz | 2019-07-25 16:32:44 -0300 (qui, 25 jul 2019) | 1 line
+
+Fix das imagens para o mod: AntiBoT via captcha
+------------------------------------------------------------------------
+r86 | Wallz | 2019-03-30 16:59:31 -0300 (s�b, 30 mar 2019) | 5 lines
+
+Criado novo npc type L2AIOTeleporter - GK exclusiva para aiox
+Criado evento L2DropDay com 22 itens configuraveis *letras do alfabeto custom*
+Fix nas html do Npc Buffer Free
+Adicionado mod antibot CAPTCHA
+Fix no SiegeReward removendo recompensa para players que nao forem pra siege..
+------------------------------------------------------------------------
+r85 | Wallz | 2019-03-30 16:50:47 -0300 (s�b, 30 mar 2019) | 1 line
+
+
+------------------------------------------------------------------------
+r84 | Wallz | 2019-03-20 23:00:13 -0300 (qua, 20 mar 2019) | 9 lines
+
+Revisada mais 400 Skills pt2 (ainda restam algumas)
+Adicionada 1094 skills que faltavam a mobs nas zonas 70+
+231 npcs revisados zonas 70+
+Exp de todos os mobs do game revisado
+Novo esquema de NPC VIP, com HTML's edit�veis
+Cria��o da Aggro do Frintezza
+Fixado um Bug no Stacktype das Ervas
+Fixado bug porta 29 GOE (substituir staticobject-e.dat na system)
+Removido NPC's Inuteis dentro do jogo
+------------------------------------------------------------------------
+r83 | Wallz | 2019-03-19 20:01:16 -0300 (ter, 19 mar 2019) | 2 lines
+
+Novo esquema de NPC Buffer COMUM, com HTML's edit�veis (Igual ao buffer VIP)
+Novo Type L2BufferEvent para o antigo npc buffer padr�o do core n�o edit�vel
+------------------------------------------------------------------------
+r82 | Wallz | 2019-03-19 19:59:39 -0300 (ter, 19 mar 2019) | 1 line
+
+Adicionado Halisha's que restavam na AI do Frintezza
+------------------------------------------------------------------------
+r81 | Wallz | 2019-02-19 16:57:19 -0300 (ter, 19 fev 2019) | 4 lines
+
+ADICIONADO UMA FUN��O PARA REMOVER O SPAWN DA ANDROMEDA (FUN EVENTS)
+Fix DO EVENT RETAIL GATHERING THE MEDALS!
+ORGANIZA��O ESTRUTURAL DOS NPCS DE EVENTOS REFEITAS (PARA QUALQUER EVENTO � NESCESSARIO ATIVAR A TABELA DE NPC CUSTOM) - MUDAR AS TABELAS NPC / CUSTOM NPC
+REFEITO SPAWNLIST DE BLAZING SWAMP / VARKAS - CASADO COM GEODATA JDREAM
+------------------------------------------------------------------------
+r80 | Wallz | 2019-02-17 16:47:27 -0300 (dom, 17 fev 2019) | 3 lines
+
+Adicionando Item Clanfull
+Adicionado Config para Spawn de Npc Wedding Manager
+Altera��o no Donator Enchant pt 1..
+------------------------------------------------------------------------
+r79 | Wallz | 2019-02-05 20:23:34 -0200 (ter, 05 fev 2019) | 61 lines
+
+- Fix DE MAIS DE 800 SKILLS, TODAS REVISADAS AS 1500 SKILLS DE PLAYERS
+  (PARA QUEM TEM SKILLS CUSTOM E QUER SABER QUAIS FORAM MEXIDAS DENTRO DO ARQUIVO
+   AS SKILLS ALTERADAS TEM O NOME DO AUTOR EM VERDE LOGO A CIMA)
+
+- Fix DE MAIS DE 1000 SKILLS DE NPC VARIAS REVISADAS PT1
+  (PARA QUEM TEM SKILLS CUSTOM E QUER SABER QUAIS FORAM MEXIDAS DENTRO DO ARQUIVO
+   AS SKILLS ALTERADAS TEM O NOME DO AUTOR EM VERDE LOGO ACIMA)
+
+- ADICIONADO 20 SKILLS PARA ENCHANT QUE ESTAVAM FALTANDO
+
+- ADICIONADO CORRE��ES RETAIL PARA MACROS (ALT+R) 
+
+- Fix DO ATACK RANGE DOS MINIONS ARCHERS (NPC TABLE)
+
+- Fix DE TODOS OS RAID BOSSES CONFORME O L2 OFF (NPC TABLE)
+
+- Fix DE TODOS OS PETS SUMONAVEIS 857 PETS (NPC TABLE)
+
+- Fix GEODATA TALKING ISLAND
+
+- Fix DA AGUA DE ENCHANTED VALLEY
+
+- Fix DA AGUA DE GLUDIO CASTLE
+
+- Fix DA AGUA DE GIRAN CASTLE
+
+- Fix DA AGUA DE EXECUTION GROUNDS
+
+- Fix DE VARIOS MOBS SPAWN EM ENCHANTED VALLEY
+
+- REMOVIDO EXP / SP DOS GUARDAS DE SIEGE.
+
+- Fix DO ZONE CASTLE DE FLORAN VILLAGE.
+
+- Fix E COMPLEMENTA��O DO MOD AIO (Fix NO TALK NPC, Fix CANT LEAVE TOWN, ADI��O CANNOT BE SUMMONED)
+
+- ADI��O DE UMA FUN��O NAS ZONES QUE PERMITEM O AIO <settings AllowAio="true"/> 
+
+- ADI��O DE UMA HTML QUE ESTAVA FALTANDO game\data\html\doormen
+
+- ADI��O DO NPC DE INSCRI��O DA SIEGE DO HALL DE GODDARD RAINBOW 
+
+- Fix DE UM BUG QUE NAO REMOVIA ADENA AO FAZER DYES 
+
+- Fix DE UM BUG QUE PERMITIA COMPRAS DE BUFFSHOP DENTRO DAS OLYMPIADAS
+
+- Fix DE PRE? AO COLOCAR AS DYES (BASE L2 OFF)
+
+- Fix HTML DA PORTA FINAL DO VALAKAS (BASE L2 OFF)
+
+- ADICIONADO 2 RAID FIGHTERS QUE FALTAVAM AO BOSS PRINCESS MOLRANG
+
+- ADICIONADO RAID FIGHTERS DOS 3 DEFENSORES DO VALAKAS
+
+- ADICIONADO OS 4 RAID FIGHTERS QUE FALTAVAM AO BOSS Lilith's Witch Marilion
+
+- Fix DO NOME DO BOSS ANAIS / LEVEL / ADI��O DE FIGHTERS
+
+- HEADING DE TODOS OS BOSSES CASADA COM A GEODATA L2JDREAM
+
+- REFEITA A SALA DO BOSS ANAIS 100% RETAIL (INSTANCIA 100% PRONTA PARA USO)
+------------------------------------------------------------------------
+r78 | Wallz | 2019-01-17 21:35:20 -0200 (qui, 17 jan 2019) | 1 line
+
+Adicionando Fix para tirar um poss�vel exploit no buffshop.
+------------------------------------------------------------------------
+r77 | Wallz | 2019-01-15 01:06:45 -0200 (ter, 15 jan 2019) | 1 line
+
+Fix para cobrar o valor correto nas Dye
+------------------------------------------------------------------------
+r76 | Wallz | 2019-01-15 00:01:32 -0200 (ter, 15 jan 2019) | 1 line
+
+Adicionando restri��o para bloquear AIOx de teleportar, usar scape ou ser sumonado via config AllowAioTeleport
+------------------------------------------------------------------------
+r75 | Wallz | 2018-12-16 16:19:32 -0200 (dom, 16 dez 2018) | 1 line
+
+- Adicionando fun��o de remover dual aiox ao t�rmino do status AIO.
+------------------------------------------------------------------------
+r74 | Wallz | 2018-12-11 21:43:12 -0200 (ter, 11 dez 2018) | 6 lines
+
+Fix DA AGUA DE HEINE (PRINCIPALMENTE PARA QUEM USA A NOSSA GEODATA)
+DELETADO ALGUNS MOBS DE FORTRESS QUE FICARAM PARA TR�S
+FIXADO ALGUNS BOSSES DA REGI�O DE SCHUTTGARD QUE TINHAM AGRO
+FINALIZADO AS CORRE��ES DAS SHADOW WEAPON 100%
+CRIA��O DA SKILL NOTURNA DO ZAKEN E IMPLEMENTA��O DA MESMA
+
+------------------------------------------------------------------------
+r73 | Wallz | 2018-12-11 18:29:46 -0200 (ter, 11 dez 2018) | 3 lines
+
+Reorganizando configs de AIOx e Restri��o de itens em aiox.properties e equipments.properties
+Adicionando mod NPC VoteSystem em vote.properties
+
+------------------------------------------------------------------------
+r72 | Wallz | 2018-12-08 16:16:55 -0200 (s�b, 08 dez 2018) | 5 lines
+
+Resolvido problema de pontua��o nas olympiadas. pt3
+- Olympiadas agora permitem participa��o at� 1 ponto
+- Olympiadas agora fazem a pontua��o chegar ate 0.
+- Olympiadas agora com o calculo 100% retail.
+
+------------------------------------------------------------------------
+r71 | Wallz | 2018-11-14 12:30:03 -0200 (qua, 14 nov 2018) | 6 lines
+
+Fix HTML de NPCS diversos
+Fix no Status de Skills Diversas 
+Fix das Shadow Weapon
+Fix do mini mapa dos ClanHall Auction
+Fix Restart Zone Gludio<->Gludin
+
+------------------------------------------------------------------------
+r70 | Wallz | 2018-10-31 22:08:43 -0300 (qua, 31 out 2018) | 2 lines
+
+* BIG BOSS VAN HALTER REFEITO COMPLETAMENTE!
+* FIXADO O BUG DE CHAT SPAM DOS NPC'S DA SEVEN SIGNS
+------------------------------------------------------------------------
+r69 | Wallz | 2018-10-31 21:39:27 -0300 (qua, 31 out 2018) | 3 lines
+
+Adicionando Config para ativar/desativar o Heal automatico da Olympiad na hora de teleportar para o coliseum
+Adicionando Config para ativar/desativar o Heal automatico da Olympiad antes de iniciar a luta
+Adicionado Mod para restri��o de skills na olympiad, totalmente configur�vel por ID de skills
+------------------------------------------------------------------------
+r68 | Wallz | 2018-10-31 18:49:20 -0300 (qua, 31 out 2018) | 4 lines
+
+Resolvido problema de pontua��o nas olympiadas. pt2
+- Olympiadas agora permitem participa��o at� 1 ponto
+- Olympiadas agora fazem a pontua��o chegar ate 0.
+
+------------------------------------------------------------------------
+r67 | Wallz | 2018-10-27 14:54:44 -0300 (s�b, 27 out 2018) | 39 lines
+
+SABEMOS QUE DEMOROU ESSE UPDATE, MAS FOI NESCESS�RIO REESCREVER 31 QUESTS NO DEDO!
+
+- SPAWN CAPTAIN BATHIS - GLUDIO
+- FIXADO TEMPO P�S GRANDBOSS VALAKAS
+- FIXADO UM BUG AP�S MORRER NO COLISEUM VOC� BUGAVA NO TETO OU IA PARA A CIDADE
+- CONTINUA��O FIX OLYMPIADAS (AINDA TRABALHANDO) 98% PRONTA
+
+- 31 QUESTS REFEITAS E 100% FUNCIONAIS :
+Saga Of The Phoenix Knight
+Saga Of Eva's Templar
+Saga Of The Sword Muse
+Saga Of The Duelist
+Saga Of The Dreadnoughts
+Saga Of The Titan
+Saga Of The Grand Khavatari
+Saga Of The Dominator
+Saga Of The Doomcryer
+Saga Of The Adventurer
+Saga Of The Wind Rider
+Saga Of The Ghost Hunter
+Saga Of The Sagittarius
+Saga Of The Moonlight Sentinel
+Saga Of The Ghost Sentinel
+Saga Of The Cardinal
+Saga Of The Hierophant
+Saga Of Evas Saint
+Saga Of The Archmage
+Saga Of The Mystic Muse
+Saga Of The Storm Screamer
+Saga Of The Arcana Lord
+Saga Of The Elemental Master
+Saga Of The Spectral Master
+Saga Of The Soultaker
+Saga Of The Hell Knight
+Saga Of The Spectral Dancer
+Saga Of The Shillien Templar
+Saga Of The Shillien Saint
+Saga Of The Fortune Seeker
+Saga Of The Maestro
+------------------------------------------------------------------------
+r66 | Wallz | 2018-08-03 03:24:18 -0300 (sex, 03 ago 2018) | 16 lines
+
+* CORRECAO QUESTS 
+- THE NAME OF EVIL - 1 
+- THE NAME OF EVIL - 2
+* CORRIGIDAS 226 SKILLS AUGUMENTS / 2 SKILLS DE CLASSES
+
+* ADICIONADO BOSS QUE FALTAVA SPAWNAR:
+- GREYCLAW KUTUS
+- PRINCESS MOLRANG
+- CAPTAIN OF THE ICE QUEEN'S ROYAL GUARD
+- CARNAMAKOS
+
+* FIXADO DROP DE ALGUNS BOSSES:
+- CARNAMAKOS
+- CAPTAIN OF THE ICE QUEEN'S ROYAL GUARD
+- SAILREN
+
+------------------------------------------------------------------------
+r65 | Wallz | 2018-08-03 01:27:33 -0300 (sex, 03 ago 2018) | 1 line
+
+Fix para fazer os pontos olympiad chegar ate 0.
+------------------------------------------------------------------------
+r64 | Wallz | 2018-07-28 14:32:31 -0300 (s�b, 28 jul 2018) | 3 lines
+
+* Fixado as piscinas de Hot Springs que tiravam todos os debuff, foram reestruturadas de acordo com o OFF: 2 debuffs por piscina.
+* Adicionado 3 piscinas restantes para remo��o dos debuffs que n�o funcionavam antes. (zone misc.xml)
+* Adicionado o debuff Rheumatismo em Hot Springs aos respectivos mobs de acordo com oficial.
+------------------------------------------------------------------------
+r63 | Wallz | 2018-07-28 13:12:28 -0300 (s�b, 28 jul 2018) | 2 lines
+
+Resolvido problema nas olympiadas.
+Olympiad agora registra at� o player chegar a 1 ponto.
+------------------------------------------------------------------------
+r62 | Wallz | 2018-07-18 23:25:37 -0300 (qua, 18 jul 2018) | 5 lines
+
+- Chaotic zone, e Flag players n�o necessitam mais do uso de ataque for�ado "Ctrl".
+- Olympiadas agora permitem participa��o at� 1 ponto
+- Corre��es quest 606 / 612 pt2 (final)
+- Implementa��o da skill Soul Breaking Arrow (2200-2299.xml)
+- Adicionado a Skill Soul Breaking Arrow ao item Soul Breaking Arrow
+------------------------------------------------------------------------
+r61 | Wallz | 2018-06-29 14:08:23 -0300 (sex, 29 jun 2018) | 1 line
+
+*ADICIONADO CONFIG RETAIL LEVEL M�XIMO PARA CRUMA TOWER
+------------------------------------------------------------------------
+r60 | Wallz | 2018-06-27 23:21:58 -0300 (qua, 27 jun 2018) | 2 lines
+
+*Frintezza: Adicionado anuncio das skills. 
+Resolvido problema do paralyze sob efeito do Mazurka pt�..
+------------------------------------------------------------------------
+r59 | Wallz | 2018-06-10 18:20:23 -0300 (dom, 10 jun 2018) | 2 lines
+
+Fix Frintezza parte 1 resolvido problema do cooldown do boss quando d� fail na instancia.
+Adicionado fun��o pra fechar as portas da sala do boss ao iniciar a luta
+------------------------------------------------------------------------
+r58 | Wallz | 2018-06-10 18:06:50 -0300 (dom, 10 jun 2018) | 1 line
+
+adicionando config  true/false com lvl para delevel ao remover status aio
+------------------------------------------------------------------------
+r57 | Wallz | 2018-06-10 16:44:47 -0300 (dom, 10 jun 2018) | 1 line
+
+Reestrutura��o config bosses.properties
+------------------------------------------------------------------------
+r56 | Wallz | 2018-06-10 16:43:03 -0300 (dom, 10 jun 2018) | 1 line
+
+Altera��o nas zones, adicionando Settings NoRestart
+------------------------------------------------------------------------
+r55 | Wallz | 2018-05-29 22:14:33 -0300 (ter, 29 mai 2018) | 1 line
+
+*Fix Olympiad parte2 removendo coluna char_name
+------------------------------------------------------------------------
+r54 | Wallz | 2018-05-24 23:34:40 -0300 (qui, 24 mai 2018) | 1 line
+
+*Fix pra pet usar skill em player com ally no pvp
+------------------------------------------------------------------------
+r53 | Wallz | 2018-05-19 03:21:27 -0300 (s�b, 19 mai 2018) | 1 line
+
+Fix vip dobrando drop de joias boss....
+------------------------------------------------------------------------
+r52 | Wallz | 2018-04-18 12:59:53 -0300 (qua, 18 abr 2018) | 1 line
+
+Fix config VIP XP/SP aceitar decimais
+------------------------------------------------------------------------
+r51 | Wallz | 2018-04-17 23:45:07 -0300 (ter, 17 abr 2018) | 1 line
+
+Fix da config pro DM remover buffs true/false
+------------------------------------------------------------------------
+r50 | Wallz | 2018-04-15 17:00:37 -0300 (dom, 15 abr 2018) | 1 line
+
+Fix VipDropRates 
+------------------------------------------------------------------------
+r49 | Wallz | 2018-04-13 23:14:08 -0300 (sex, 13 abr 2018) | 1 line
+
+Fix do script da quest de Varka/Ketra q606 & q612
+------------------------------------------------------------------------
+r48 | Wallz | 2018-04-10 19:10:16 -0300 (ter, 10 abr 2018) | 1 line
+
+Fix final do Evento CTF
+------------------------------------------------------------------------
+r47 | Wallz | 2018-04-01 01:15:53 -0300 (dom, 01 abr 2018) | 1 line
+
+*Adicionado efeito de som de critical hit no sucesso do Blow do dagger..
+------------------------------------------------------------------------
+r45 | Wallz | 2018-04-01 01:01:22 -0300 (dom, 01 abr 2018) | 2 lines
+
+*Fix buffshop cobrar em dobro
+*Fix buffshop remover titulo de player
+------------------------------------------------------------------------
+r43 | Wallz | 2018-03-13 17:46:48 -0300 (ter, 13 mar 2018) | 2 lines
+
+Fix evento CTF parte�, aguarde parte� em andamento..
+Fix anuncio evento DM
+------------------------------------------------------------------------
+r41 | Wallz | 2018-03-10 15:06:22 -0300 (s�b, 10 mar 2018) | 1 line
+
+Fix resolvendo problema do DM voltando pro coliseu com luta em outro local..
+------------------------------------------------------------------------
+r40 | Wallz | 2018-03-10 14:52:33 -0300 (s�b, 10 mar 2018) | 4 lines
+
+Add Config para Bloquear Classes nos eventos em mods.properties
+Corrigido Mensagem dos Eventos.
+Reformulado e corrigido TvT e DM substituir arquivo events_start.properties
+Altera��o nas MSG dos eventos.
+------------------------------------------------------------------------
+r38 | Wallz | 2018-02-04 13:09:25 -0200 (dom, 04 fev 2018) | 4 lines
+
+*Adicionado Config RateDropSealStones - rates.properties
+*Adicionado Config ConsumeArrows para habilitar/desativar consumo de flechas, logo abaixo da config ConsumeSS
+*Adicionado Config para bloqueio/permissao trocar arma batendo - player.properties
+*Fix msgsde registrod os Eventos TvT CTF e DM
+------------------------------------------------------------------------
+r37 | Wallz | 2018-01-13 02:17:21 -0200 (s�b, 13 jan 2018) | 2 lines
+
+*Fix Olympiad part�
+*Add config para ativar/desativar party invite em modo de combate(player.properties)
+------------------------------------------------------------------------
+r36 | Wallz | 2017-12-03 23:29:40 -0200 (dom, 03 dez 2017) | 1 line
+
+*Removendo 100 pvp aura hero
+------------------------------------------------------------------------
+r35 | Wallz | 2017-10-21 19:31:58 -0200 (s�b, 21 out 2017) | 1 line
+
+*Fix para fun��o de upar os Soul Crystals.
+------------------------------------------------------------------------
+r34 | Wallz | 2017-09-10 20:51:25 -0300 (dom, 10 set 2017) | 1 line
+
+reestruturando as configs do projeto parte 2
+------------------------------------------------------------------------
+r33 | Wallz | 2017-09-09 00:49:13 -0300 (s�b, 09 set 2017) | 1 line
+
+Reestruturando as configs do projeto..
+------------------------------------------------------------------------
+r32 | Wallz | 2017-09-06 22:38:48 -0300 (qua, 06 set 2017) | 1 line
+
+Corrigido possivel forma de burlar a taxa de eventos
+------------------------------------------------------------------------
+r31 | Wallz | 2017-09-06 20:53:05 -0300 (qua, 06 set 2017) | 2 lines
+
+Add Taxa para cadastrar em eventos *Config mods.properties*
+Fix em html AioSeller
+------------------------------------------------------------------------
+r30 | Wallz | 2017-09-03 08:08:44 -0300 (dom, 03 set 2017) | 2 lines
+
+Fix FakeDeath Toogle parte 2
+Melhoria no sistema de AIO e VIP
+------------------------------------------------------------------------
+r29 | Wallz | 2017-08-31 12:38:10 -0300 (qui, 31 ago 2017) | 1 line
+
+Fix FakeDeath Toogle
+------------------------------------------------------------------------
+r28 | Wallz | 2017-08-11 04:43:19 -0300 (sex, 11 ago 2017) | 5 lines
+
+Add restri��o necessario ter a classe correta para virar AIO pelo AIOSeller & AIOItem
+Update no Npc Buffer VIP
+Fix no AIOSeller padr�o via core
+Add new L2SiegeRegister (custom_npc id 50001)
+
+------------------------------------------------------------------------
+r27 | Wallz | 2017-08-04 04:01:02 -0300 (sex, 04 ago 2017) | 1 line
+
+Altera��o: Config add-on.properties
+------------------------------------------------------------------------
+r26 | Wallz | 2017-08-04 03:36:28 -0300 (sex, 04 ago 2017) | 3 lines
+
+Restri��o AIOx n�o participa de eventos TvT, CTF e DM
+Melhoras nos itens de Noble, VIP e AIO.
+Novo NPC Buffer VIP com html edit�vel
+------------------------------------------------------------------------
+r25 | Wallz | 2017-07-30 14:35:26 -0300 (dom, 30 jul 2017) | 2 lines
+
+Atualiza��o na spawnlist, thx DemonikaBR
+
+------------------------------------------------------------------------
+r24 | Fabbian | 2016-12-31 20:58:47 -0200 (s�b, 31 dez 2016) | 2 lines
+
+* Hero Skill on SubClass.
+* Custom Cancel.
+------------------------------------------------------------------------
+r23 | Wallz | 2016-11-06 14:57:50 -0200 (dom, 06 nov 2016) | 1 line
+
+Atualiza��o na lib DreamGuard...
+------------------------------------------------------------------------
+r22 | Wallz | 2016-11-06 14:57:08 -0200 (dom, 06 nov 2016) | 4 lines
+
+Fix na HTML do EventManager...
+Fix na HTML do NPC Ranking...
+Melhoria na HTML do BufferVIP...
+Atualiza��o na config DreamGuard...
+------------------------------------------------------------------------
+r21 | Wallz | 2016-10-28 23:44:05 -0200 (sex, 28 out 2016) | 8 lines
+
+Fix nos itens: Donate Enchant, AIO,VIP & Nobless Item....
+Fix AIOSeller,
+Fix na HTML do npc de Achievments
+Fix na HTML do npc ProtectedWarehouse
+Fix HTML Event Manager
+Altera��o na config add-on de acordo com as corre��es acima..
+Altera��o na SQL custom_npc de acordo com as corre��es acima...
+Altera��o nas tabelas etcitem e custom_etcitem de acordo com as corre��es acima..
+------------------------------------------------------------------------
+r20 | Wallz | 2016-10-12 18:59:56 -0300 (qua, 12 out 2016) | 1 line
+
+Upando Source VIP Full Mods r94
+------------------------------------------------------------------------
+r17 | Fabbian | 2016-04-26 01:52:04 -0300 (ter, 26 abr 2016) | 7 lines
+
+*Fix das Shadows Weapons na multisell.
+*Fix nas spawnlist de guardas que n�o deveria est� l�.
+*Fix nas Html de alguns guardas (Mensagem incorreta nos mesmos).
+*Fix na skill Iron Punch (Adicionada a restrin��o de utilzar apenas com Fist, Dual Fist).
+*Fix teleport Baium (N�o est� mais caindo no vazio).
+*Fix no RaidBoss "Dark Shaman Varangka" (Corrigido Spawn e collision_height de seus RadFight).
+*Fix nas mensagens dos eventos CTF/TV/DM.
+------------------------------------------------------------------------
+r16 | Wallz | 2016-04-16 15:19:26 -0300 (s�b, 16 abr 2016) | 1 line
+
+Novas corre��es NPC_Attackable
+------------------------------------------------------------------------
+r14 | Wallz | 2016-04-15 11:32:07 -0300 (sex, 15 abr 2016) | 1 line
+
+Atualizando config & AIO, VIP e Nobless Item
+------------------------------------------------------------------------
+r13 | Wallz | 2016-04-13 18:03:48 -0300 (qua, 13 abr 2016) | 1 line
+
+Fix AIOSeller & Fix Chaotic Zone
+------------------------------------------------------------------------
+r10 | Wallz | 2016-04-09 02:35:09 -0300 (s�b, 09 abr 2016) | 1 line
+
+
+------------------------------------------------------------------------
+r9 | Wallz | 2016-04-07 01:55:13 -0300 (qui, 07 abr 2016) | 1 line
+
+
+------------------------------------------------------------------------
+r8 | Wallz | 2016-04-01 18:22:36 -0300 (sex, 01 abr 2016) | 1 line
+
+
+------------------------------------------------------------------------
+r6 | Wallz | 2016-04-01 15:58:40 -0300 (sex, 01 abr 2016) | 1 line
+
+Corrigindo Tools e resolvendo uns erros na pack VIP Basico...
+------------------------------------------------------------------------
+r3 | Wallz | 2016-03-21 20:38:48 -0300 (seg, 21 mar 2016) | 1 line
+
+Upando Source VIP Full Mods
+------------------------------------------------------------------------
+r2 | Wallz | 2016-03-10 23:48:08 -0300 (qui, 10 mar 2016) | 1 line
+
+Criando Pastas
+------------------------------------------------------------------------

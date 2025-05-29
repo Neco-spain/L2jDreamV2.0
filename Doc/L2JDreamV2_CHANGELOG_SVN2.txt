@@ -1,0 +1,372 @@
+------------------------------------------------------------------------
+r94 | Wallz | 2016-11-06 14:45:01 -0200 (dom, 06 nov 2016) | 1 line
+
+Fix na HTML do EventManager...
+------------------------------------------------------------------------
+r93 | Fabbian | 2016-04-24 03:13:04 -0300 (dom, 24 abr 2016) | 7 lines
+
+*Fix das Shadows Weapons na multisell.
+*Fix nas spawnlist de guardas que n�o deveria est� l�.
+*Fix nas Html de alguns guardas (Mensagem incorreta nos mesmos).
+*Fix na skill Iron Punch (Adicionada a restrin��o de utilzar apenas com Fist, Dual Fist).
+*Fix teleport Baium (N�o est� mais caindo no vazio).
+*Fix no RaidBoss "Dark Shaman Varangka" (Corrigido Spawn e collision_height de seus RadFight).
+*Fix nas mensagens dos eventos CTF/TV/DM.
+------------------------------------------------------------------------
+r86 | Wallz | 2016-04-15 12:54:06 -0300 (sex, 15 abr 2016) | 1 line
+
+Corrigindo config offline e alterando logo do projeto no console
+------------------------------------------------------------------------
+r85 | Wallz | 2016-04-07 01:46:23 -0300 (qui, 07 abr 2016) | 1 line
+
+Fix das quests 606 & 628 thx acmar39
+------------------------------------------------------------------------
+r84 | Fabbian | 2016-03-13 11:51:16 -0300 (dom, 13 mar 2016) | 1 line
+
+* Fix da Olympiad.
+------------------------------------------------------------------------
+r83 | Wallz | 2016-01-21 15:01:18 -0200 (qui, 21 jan 2016) | 1 line
+
+remo��o de config desativada
+------------------------------------------------------------------------
+r82 | Wallz | 2016-01-15 14:28:03 -0200 (sex, 15 jan 2016) | 1 line
+
+Update menu admin e Fix na config players
+------------------------------------------------------------------------
+r81 | Wallz | 2015-12-15 18:16:57 -0200 (ter, 15 dez 2015) | 1 line
+
+Editando mensagem do projeto
+------------------------------------------------------------------------
+r80 | Fabbian | 2015-12-14 11:52:09 -0200 (seg, 14 dez 2015) | 1 line
+
+* Removendo Config Bugada.
+------------------------------------------------------------------------
+r79 | Fabbian | 2015-12-14 11:47:25 -0200 (seg, 14 dez 2015) | 1 line
+
+* Modificado algumas Config para Melhor performance.
+------------------------------------------------------------------------
+r78 | Fabbian | 2015-12-14 11:40:53 -0200 (seg, 14 dez 2015) | 1 line
+
+* Modificado alguns valores padr�es para Config's.
+------------------------------------------------------------------------
+r77 | Fabbian | 2015-12-14 11:38:38 -0200 (seg, 14 dez 2015) | 3 lines
+
+* Corrigindo Hit Time BSpS/SpS/Ss 0.70 - 70%.
+* Adicionando config para minimo de Hit Time.
+* Modificado Valor padr�o para 330.
+------------------------------------------------------------------------
+r76 | Wallz | 2015-12-09 15:14:48 -0200 (qua, 09 dez 2015) | 1 line
+
+* Adicionando logo do projeto no console...
+------------------------------------------------------------------------
+r75 | Fabbian | 2015-12-08 20:29:13 -0200 (ter, 08 dez 2015) | 1 line
+
+* Fix ao aumentar karma remover PvPFlag.
+------------------------------------------------------------------------
+r74 | Fabbian | 2015-12-08 20:16:33 -0200 (ter, 08 dez 2015) | 1 line
+
+* Comando Edit Drop.
+------------------------------------------------------------------------
+r73 | Fabbian | 2015-12-08 20:00:55 -0200 (ter, 08 dez 2015) | 2 lines
+
+* Removendo HTML C�pia.
+* Corrigindo Critical Erro HTML Eventos.
+------------------------------------------------------------------------
+r72 | Fabbian | 2015-12-08 20:00:05 -0200 (ter, 08 dez 2015) | 1 line
+
+* Comandos Admin Create Menu.
+------------------------------------------------------------------------
+r71 | Fabbian | 2015-12-04 12:41:08 -0200 (sex, 04 dez 2015) | 1 line
+
+* Config Lethal Protection Mobs.
+------------------------------------------------------------------------
+r70 | Fabbian | 2015-12-04 12:36:33 -0200 (sex, 04 dez 2015) | 1 line
+
+* Config para maximum Enchant & OverChant.
+------------------------------------------------------------------------
+r69 | Fabbian | 2015-12-04 12:35:44 -0200 (sex, 04 dez 2015) | 1 line
+
+* Maximun Enchant separado apra cada tipo de Scroll [CORE].
+------------------------------------------------------------------------
+r68 | Fabbian | 2015-11-29 16:30:43 -0200 (dom, 29 nov 2015) | 1 line
+
+* Corrigindo erro de NPE no Auth.
+------------------------------------------------------------------------
+r67 | Fabbian | 2015-11-29 16:22:00 -0200 (dom, 29 nov 2015) | 1 line
+
+* Corrigindo a fala dos Mobs de Monas.
+------------------------------------------------------------------------
+r66 | Fabbian | 2015-11-29 15:45:01 -0200 (dom, 29 nov 2015) | 1 line
+
+* Modificando codifica��o das HTML para aceitar acentos.
+------------------------------------------------------------------------
+r65 | Fabbian | 2015-11-29 15:40:36 -0200 (dom, 29 nov 2015) | 1 line
+
+* Corrigindo erro referente a Counterattack.
+------------------------------------------------------------------------
+r64 | Fabbian | 2015-11-29 15:39:58 -0200 (dom, 29 nov 2015) | 1 line
+
+* Corrigindo Abort RR.
+------------------------------------------------------------------------
+r63 | Fabbian | 2015-11-27 20:25:53 -0200 (sex, 27 nov 2015) | 2 lines
+
+* Corrigindo Doormen.
+* Corrigindo Algumas Falas.
+------------------------------------------------------------------------
+r62 | Fabbian | 2015-11-22 21:02:11 -0200 (dom, 22 nov 2015) | 1 line
+
+* Corrigindo Erro DMEvent.
+------------------------------------------------------------------------
+r61 | Fabbian | 2015-10-27 11:24:52 -0200 (ter, 27 out 2015) | 1 line
+
+* Diminuindo tempo para permanecer na tela de sele��o de server.
+------------------------------------------------------------------------
+r60 | Wallz | 2015-10-23 14:08:42 -0200 (sex, 23 out 2015) | 1 line
+
+pequena Fix nas configs
+------------------------------------------------------------------------
+r59 | Fabbian | 2015-10-16 12:41:33 -0300 (sex, 16 out 2015) | 1 line
+
+* Corrigindo Packet PrivateStoreManageListBuy Item's enchantados.
+------------------------------------------------------------------------
+r58 | Fabbian | 2015-10-12 20:42:23 -0300 (seg, 12 out 2015) | 1 line
+
+* Corrigindo limite de MAX_ENCHANT.
+------------------------------------------------------------------------
+r57 | Fabbian | 2015-10-12 20:04:19 -0300 (seg, 12 out 2015) | 1 line
+
+* Corrigindo Mensagem ao terminar Siege.
+------------------------------------------------------------------------
+r56 | Fabbian | 2015-10-12 19:44:39 -0300 (seg, 12 out 2015) | 1 line
+
+* Corrigindo comando /assist.
+------------------------------------------------------------------------
+r55 | Fabbian | 2015-10-10 19:17:30 -0300 (s�b, 10 out 2015) | 2 lines
+
+* Movendo HTML dos eventos apra pasta separada.
+* Adicionando Parte do DM HTML.
+------------------------------------------------------------------------
+r54 | Fabbian | 2015-10-10 18:58:37 -0300 (s�b, 10 out 2015) | 4 lines
+
+* Adicionando Evento DeathMatch.
+* Adicionando Restri��es nos Eventos.
+* Corrigindo Name/Titile Color nos eventos.
+
+------------------------------------------------------------------------
+r53 | Fabbian | 2015-10-10 16:13:31 -0300 (s�b, 10 out 2015) | 1 line
+
+* Corrigindo ItemList ao Finalizar ShadowItem.
+------------------------------------------------------------------------
+r52 | Fabbian | 2015-10-10 13:18:27 -0300 (s�b, 10 out 2015) | 2 lines
+
+* Adicionado prote��o apra evitar dupe de PHX.
+* Ao sair do Jogo salvar WereHouse & Inventory.
+------------------------------------------------------------------------
+r51 | Fabbian | 2015-10-10 13:16:30 -0300 (s�b, 10 out 2015) | 1 line
+
+* UpdateSystemMsg ao equipar desequipar item e corrigido broadcast.
+------------------------------------------------------------------------
+r50 | Fabbian | 2015-10-10 13:12:50 -0300 (s�b, 10 out 2015) | 1 line
+
+* Parte 3 Ring Earing  e ALLDRESS.
+------------------------------------------------------------------------
+r49 | Fabbian | 2015-10-10 13:04:38 -0300 (s�b, 10 out 2015) | 1 line
+
+* Segunda parte Ring Earing.
+------------------------------------------------------------------------
+r48 | Fabbian | 2015-10-09 12:53:12 -0300 (sex, 09 out 2015) | 1 line
+
+* Corrigindo Ring Earring.
+------------------------------------------------------------------------
+r47 | Fabbian | 2015-10-09 12:25:10 -0300 (sex, 09 out 2015) | 1 line
+
+* Corrigindo Config's MAX Cast,P.Atk - Speed.
+------------------------------------------------------------------------
+r46 | Fabbian | 2015-10-09 12:02:18 -0300 (sex, 09 out 2015) | 1 line
+
+* SocialAction.
+------------------------------------------------------------------------
+r45 | Fabbian | 2015-10-05 12:35:32 -0300 (seg, 05 out 2015) | 1 line
+
+* CTF Event Part�.
+------------------------------------------------------------------------
+r44 | Fabbian | 2015-10-05 12:05:23 -0300 (seg, 05 out 2015) | 2 lines
+
+* Adicionando CTF.
+* Removendo cria��o da pasta faenor.
+------------------------------------------------------------------------
+r43 | Fabbian | 2015-10-04 15:32:13 -0300 (dom, 04 out 2015) | 2 lines
+
+* Corrigindo Missing NPC.
+* Update Knowlist.
+------------------------------------------------------------------------
+r42 | Fabbian | 2015-10-04 14:53:50 -0300 (dom, 04 out 2015) | 1 line
+
+* Corrigindo DHAIR.
+------------------------------------------------------------------------
+r40 | Fabbian | 2015-10-03 15:43:34 -0300 (s�b, 03 out 2015) | 1 line
+
+* Removendo parte do Core dos Item's do kamael+.
+------------------------------------------------------------------------
+r39 | Fabbian | 2015-10-03 15:41:17 -0300 (s�b, 03 out 2015) | 1 line
+
+* Corrigindo Script Noblesse Teleport.
+------------------------------------------------------------------------
+r38 | Douglas | 2015-09-24 12:29:18 -0300 (qui, 24 set 2015) | 1 line
+
+Alterando frases em portugues
+------------------------------------------------------------------------
+r37 | Fabbian | 2015-09-23 11:21:36 -0300 (qua, 23 set 2015) | 1 line
+
+* Corrigindo problemas no TvT.
+------------------------------------------------------------------------
+r36 | Fabbian | 2015-09-19 19:16:51 -0300 (s�b, 19 set 2015) | 1 line
+
+* Revertendo commit anterior.
+------------------------------------------------------------------------
+r35 | Fabbian | 2015-09-19 19:05:18 -0300 (s�b, 19 set 2015) | 1 line
+
+* Adicionando Faenor.
+------------------------------------------------------------------------
+r34 | Fabbian | 2015-09-18 20:49:06 -0300 (sex, 18 set 2015) | 1 line
+
+* Corrigindo Mensagen's de EXP/SP & EXP+SP.
+------------------------------------------------------------------------
+r33 | Douglas | 2015-09-12 12:07:44 -0300 (s�b, 12 set 2015) | 1 line
+
+Nome da skill e uma sql que n�o instalava
+------------------------------------------------------------------------
+r32 | Fabbian | 2015-09-10 20:10:37 -0300 (qui, 10 set 2015) | 1 line
+
+* Delay Enchant.
+------------------------------------------------------------------------
+r31 | Fabbian | 2015-09-10 19:21:39 -0300 (qui, 10 set 2015) | 4 lines
+
+* Fix AdminSpawn.
+* Fix WaterZones.
+* Siege Reward system.
+
+------------------------------------------------------------------------
+r30 | Fabbian | 2015-09-05 16:03:14 -0300 (s�b, 05 set 2015) | 1 line
+
+* Atualizando MysqlConnector.
+------------------------------------------------------------------------
+r29 | Fabbian | 2015-09-05 15:49:51 -0300 (s�b, 05 set 2015) | 2 lines
+
+* Corrigindo problema com o valor das Buylist.
+* Pequena Fix no nome da XML dos Walker.
+------------------------------------------------------------------------
+r28 | Fabbian | 2015-09-05 14:51:48 -0300 (s�b, 05 set 2015) | 1 line
+
+* Corrigindo Clan War.
+------------------------------------------------------------------------
+r27 | Fabbian | 2015-09-05 14:34:56 -0300 (s�b, 05 set 2015) | 2 lines
+
+* Corrigindo NpcWalker.
+* Corrigindo Noblesse Teleporter ID Errado.
+------------------------------------------------------------------------
+r26 | Fabbian | 2015-09-05 12:53:25 -0300 (s�b, 05 set 2015) | 1 line
+
+* Walker & Msg.
+------------------------------------------------------------------------
+r25 | Fabbian | 2015-09-02 21:37:40 -0300 (qua, 02 set 2015) | 1 line
+
+* Corrigindo problema com duplicate HTML dos Teleport.
+------------------------------------------------------------------------
+r24 | Fabbian | 2015-09-02 12:13:19 -0300 (qua, 02 set 2015) | 2 lines
+
+* Corrigindo erro no Auth.
+* Modificando MSG no enchant e aumentando o tempo para 6 seg.
+------------------------------------------------------------------------
+r23 | Fabbian | 2015-09-01 21:26:03 -0300 (ter, 01 set 2015) | 1 line
+
+* Corrigindo erros do tracker.
+------------------------------------------------------------------------
+r22 | Fabbian | 2015-08-30 20:18:24 -0300 (dom, 30 ago 2015) | 1 line
+
+* Spawnlist original.
+------------------------------------------------------------------------
+r21 | Fabbian | 2015-08-30 19:58:52 -0300 (dom, 30 ago 2015) | 1 line
+
+* Corrigindo alguns erros.
+------------------------------------------------------------------------
+r20 | Wolgan | 2015-07-06 14:32:13 -0300 (seg, 06 jul 2015) | 1 line
+
+Fix: NPC Newbie Guide - BlessingOfProtection LvL 39+
+------------------------------------------------------------------------
+r19 | Fabbian | 2015-06-19 15:26:10 -0300 (sex, 19 jun 2015) | 5 lines
+
+Fix nas skills surrenders.
+Fix nas skills resist's.
+Fix nas skills que envolvem Seed's ( Water, Fire, Wind)
+Remo��o do c�digo change_weaponid (Toda a estrutura da troca de arma dos kamael's)
+
+------------------------------------------------------------------------
+r18 | Wolgan | 2015-06-18 13:41:13 -0300 (qui, 18 jun 2015) | 3 lines
+
+Corrigindo erro quest Nobles
+Corrigindo Skills Accuracy, Final Frenzy,Anchor,Whirlwind
+
+------------------------------------------------------------------------
+r17 | Wolgan | 2015-06-13 13:56:36 -0300 (s�b, 13 jun 2015) | 1 line
+
+Fix Provis�ria -  Skill 'SEAL OF RULER' n�o ativava em Siege
+------------------------------------------------------------------------
+r16 | Wolgan | 2015-06-12 14:55:22 -0300 (sex, 12 jun 2015) | 2 lines
+
+-Revertendo Commit 14 "erro GS"
+-Modificando Mensagem de Systema
+------------------------------------------------------------------------
+r15 | Wolgan | 2015-05-26 11:56:46 -0300 (ter, 26 mai 2015) | 1 line
+
+Fix do Erro na finaliza��o da quest 168_DeliverSupplies
+------------------------------------------------------------------------
+r14 | Fabbian | 2015-05-22 11:47:22 -0300 (sex, 22 mai 2015) | 1 line
+
+Removendo coluna change_weaponid n�o usada, na tabela weapon.
+------------------------------------------------------------------------
+r13 | Fabbian | 2015-05-22 11:21:13 -0300 (sex, 22 mai 2015) | 1 line
+
+Removendo mensagem em russo.
+------------------------------------------------------------------------
+r12 | Fabbian | 2015-04-10 17:07:24 -0300 (sex, 10 abr 2015) | 3 lines
+
+* [BETA]
+
+* Update.
+------------------------------------------------------------------------
+r11 | Fabbian | 2015-04-07 17:38:29 -0300 (ter, 07 abr 2015) | 3 lines
+
+* Adicionando ServerPacket TitleUpdate.
+* Corrigido PledgeType.
+* Add _chest NpcInfo.
+------------------------------------------------------------------------
+r10 | Fabbian | 2015-04-07 16:11:24 -0300 (ter, 07 abr 2015) | 4 lines
+
+* Removendo LameGuard.
+* Removendo classes n�o usadas.
+* Corrigindo ConcurrentHashMap AuthServer.
+* Removendo HWID.
+------------------------------------------------------------------------
+r9 | Fabbian | 2015-04-07 15:17:31 -0300 (ter, 07 abr 2015) | 1 line
+
+* Modificando build.xml.
+------------------------------------------------------------------------
+r8 | Fabbian | 2015-04-07 14:16:06 -0300 (ter, 07 abr 2015) | 1 line
+
+* Corrigindo ErroGS ao Comprar ClanHall (NPE).
+------------------------------------------------------------------------
+r7 | Fabbian | 2015-04-07 14:02:24 -0300 (ter, 07 abr 2015) | 3 lines
+
+* Removendo SummonSuportMagic n�o usado.
+* ConcurrentHashMap QuestState.
+* Corrigindo Mensagens Newbie guide.
+------------------------------------------------------------------------
+r6 | Fabbian | 2015-04-06 22:55:40 -0300 (seg, 06 abr 2015) | 1 line
+
+* Branches
+------------------------------------------------------------------------
+r1 | L2JDream SVN Server | 2015-04-05 22:12:24 -0300 (dom, 05 abr 2015) | 1 line
+
+Initial structure.
+------------------------------------------------------------------------

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="Dream_Auth/main/java"/>
+	<classpathentry kind="src" path="Dream_Auth/dist/config"/>
+	<classpathentry kind="src" path="Dream_Commons/src/main/java"/>
+	<classpathentry kind="src" path="Dream_DataPack/data/html"/>
+	<classpathentry kind="src" path="Dream_DataPack/data/scripts"/>
+	<classpathentry kind="src" path="Dream_DataPack/data/xml"/>
+	<classpathentry kind="src" path="Dream_DataPack/quests/com"/>
+	<classpathentry kind="src" path="Dream_DataPack/sql"/>
+	<classpathentry kind="src" path="Dream_GameServer/src"/>
+	<classpathentry kind="src" path="Dream_GameServer/dist/config"/>
+	<classpathentry kind="lib" path="Dream_Libs/commons-dbcp-1.4.jar"/>
+	<classpathentry kind="lib" path="Dream_Libs/commons-io-1.4.jar"/>
+	<classpathentry kind="lib" path="Dream_Libs/commons-pool-1.5.4.jar"/>
+	<classpathentry kind="lib" path="Dream_Libs/core-3.3.0.jar"/>
+	<classpathentry kind="lib" path="Dream_Libs/java-engine-1.8.jar"/>
+	<classpathentry kind="lib" path="Dream_Libs/javolution-5.5.1.jar"/>
+	<classpathentry kind="lib" path="Dream_Libs/junit-3.8.1.jar"/>
+	<classpathentry kind="lib" path="Dream_Libs/jython-engine-2.2.1.jar"/>
+	<classpathentry kind="lib" path="Dream_Libs/jython.jar"/>
+	<classpathentry kind="lib" path="Dream_Libs/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="Dream_Libs/mysql-connector-java-5.1.36.jar"/>
+	<classpathentry kind="lib" path="Dream_Libs/ObfuscationAnnotation.jar"/>
+	<classpathentry kind="lib" path="Dream_Libs/yguard.jar"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

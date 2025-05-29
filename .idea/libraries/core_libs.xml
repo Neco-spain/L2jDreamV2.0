@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="core-libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Dream_DataPack/libs/auth.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Dream_DataPack/libs/dream-commons.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Dream_DataPack/libs/game.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Dream_DataPack/libs/api-commons.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Dream_DataPack/libs/api-core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Dream_DataPack/libs/SpartanGuardExt.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/Dream_GameServer/src" />
+      <root url="file://$PROJECT_DIR$/Dream_Guard/src" />
+      <root url="file://$PROJECT_DIR$/Dream_Auth/src" />
+      <root url="file://$PROJECT_DIR$/Dream_Commons/src" />
+      <root url="file://$PROJECT_DIR$/Dream_Scripts/src/com" />
+      <root url="jar://$PROJECT_DIR$/Dream_DataPack/libs/api-core.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,179 @@
+<project name="Dream" default="All">
+	
+	<property name="dist" location="build" />
+	<property name="commons" location="Dream_Commons/src/main/java" />
+	<property name="game" location="Dream_GameServer" />
+	<property name="auth" location="Dream_Auth" />
+	<property name="data" location="Dream_DataPack" />
+	<property name="tool" location="Tools" />
+	<property name="doc" location="Doc" />
+	
+	<path id="libs">
+		<fileset dir="Dream_Libs">
+			<include name="*.jar" />
+		</fileset>
+	</path>
+
+	<target name="Clean">
+		<echo message="Clean build dist." />
+		<delete dir="${dist}" />
+	</target>
+
+	<target name="Init" depends="Clean, Version, Changelog">
+		<echo message="Creating the output directories." />
+		<mkdir dir="${dist}" />
+		<mkdir dir="${dist}/sql" />
+		<mkdir dir="${dist}/libs" />
+		<mkdir dir="${dist}/auth" />
+		<mkdir dir="${dist}/auth/config" />
+		<mkdir dir="${dist}/game" />
+		<mkdir dir="${dist}/game/data" />
+		<mkdir dir="${dist}/game/data/html" />
+		<mkdir dir="${dist}/game/config" />
+		<mkdir dir="${dist}/game/data/scripts/" />
+		<copy todir="${dist}/libs">
+			<fileset dir="Dream_Libs">
+				<include name="*.jar" />
+			</fileset>
+		</copy>
+		<copy todir="${dist}/sql">
+			<fileset dir="${data}/sql">
+			</fileset>
+		</copy>
+		<concat destfile="${doc}/L2J_Dream_CHANGELOG_VIP.txt">${changelog}</concat>
+			<copy todir="${dist}">
+				<fileset dir="${doc}/">
+					</fileset>
+			</copy>
+	</target>
+
+	<target name="Commons" depends="Init">
+		<echo message="Compiling Commons." />
+		<delete dir="${dist}/classes" />
+		<mkdir dir="${dist}/classes" />
+		<javac destdir="${dist}/classes" optimize="on" compiler="javac1.8" debug="on" debuglevel="lines,vars,source" includeantruntime="false" source="1.8" target="1.8" encoding="utf-8" nowarn="on">
+			<src path="${commons}" />
+			<classpath>
+				<path refid="libs" />
+			</classpath>
+		</javac>
+		<jar destfile="${dist}/libs/dream-commons.jar">
+			<fileset dir="${dist}/classes" />
+		</jar>
+		<delete dir="${dist}/classes" />
+	</target>
+
+	<target name="AuthServer" depends="Commons">
+		<echo message="Compiling AuthServer and Moving files." />
+		<delete dir="${dist}/classes" />
+		<mkdir dir="${dist}/classes" />
+		<javac destdir="${dist}/classes" optimize="on" compiler="javac1.8" debug="on" debuglevel="lines,vars,source" includeantruntime="false" source="1.8" target="1.8" encoding="utf-8" nowarn="on">
+			<src path="${auth}/main/java" />
+			<classpath>
+				<path refid="libs" />
+				<path location="${dist}/libs/dream-commons.jar" />
+			</classpath>
+		</javac>
+		<jar destfile="${dist}/libs/auth.jar">
+			<fileset dir="${dist}/classes" />
+		</jar>
+		<copy todir="${dist}/auth/">
+			<fileset dir="${auth}/dist" />
+		</copy>
+		<delete dir="${dist}/classes" />
+	</target>
+
+	<target name="GameServer" depends="Commons">
+		<echo message="Compiling GameServer and Moving files." />
+		<delete dir="${dist}/classes" />
+		<mkdir dir="${dist}/classes" />
+		<javac destdir="${dist}/classes" optimize="on" compiler="javac1.8" debug="on" includeantruntime="false" source="1.8" target="1.8" encoding="utf-8" nowarn="on">
+			<src path="${game}/src" />
+			<classpath>
+				<path refid="libs" />
+				<path location="${dist}/libs/dream-commons.jar" />
+			</classpath>
+		</javac>
+		<jar destfile="${dist}/libs/game.jar">
+			<fileset dir="${dist}/classes" />
+			<manifest>
+				<attribute name="Main-Class" value="com.dream.game.L2GameServer" />
+			</manifest>
+		</jar>
+		<copy todir="${dist}/game">
+			<fileset dir="${game}/dist" />
+		</copy>
+		<delete dir="${dist}/classes" />
+	</target>
+
+	<target name="DataPack">
+		<echo message="Compiling Datapack and Moving files." />
+		<delete dir="${dist}/classes" />
+		<mkdir dir="${dist}/classes" />
+		<javac destdir="${dist}/classes" optimize="on" compiler="javac1.8" debug="on" includeantruntime="false" source="1.8" target="1.8" encoding="utf-8" nowarn="on">
+			<src path="${data}/quests" />
+			<classpath>
+				<path refid="libs" />
+				<path location="${dist}/libs/dream-commons.jar" />
+				<path location="${dist}/libs/game.jar" />
+			</classpath>
+		</javac>
+		<jar destfile="${dist}/game/data/scripts/script.jar">
+			<fileset dir="${dist}/classes" />
+		</jar>
+		<delete dir="${dist}/classes" />
+		<copy todir="${dist}/game/data">
+			<fileset dir="${data}/data">
+				<include name="**/*" />
+			</fileset>
+		</copy>
+	</target>
+	
+	<target name="Version">
+			<tstamp>
+				<format property="tstamp" pattern="yyyy-MM-dd HH:mm:ss" />
+			</tstamp>
+			<exec dir="." executable="svnversion" outputproperty="revision" failifexecutionfails="false">
+				<arg line="-n ." />
+			</exec>
+			<concat destfile="${dist}/game/config/revision.properties">
+				Version = ${revision}
+				BuildDate = ${tstamp}
+				Detailed Info: L2JDream Project www.l2jdream.com.br
+			</concat>
+			<concat destfile="${dist}/game/config/revision.properties" append="true">
+				<filelist dir="${src}/../.svn/" files="entries" />
+				<filterchain>
+					<prefixlines prefix="    " />
+					<headfilter lines="8" skip="4" />
+					<tokenfilter>
+						<ignoreblank />
+					</tokenfilter>
+				</filterchain>
+			</concat>
+		<echo message="Revision: ${revision}" />
+	</target>
+	
+	<target name="Changelog">
+		<echo message="Generating Changelog." />
+			<exec dir="." executable="svn" outputproperty="changelog">
+				<arg value="log" />
+				<arg value="--stop-on-copy" />
+			</exec>
+			<tstamp>
+				<format property="build.tstamp" pattern="dd/MM/yyyy HH:mm:ss" />
+			</tstamp>
+			<exec dir="." executable="svnversion" outputproperty="l2j.version" />
+		</target>
+	
+	<target name="All" depends="AuthServer,GameServer,DataPack">
+		<echo message="Compressing compiled revision Pack." />
+		<exec dir="." executable="svnversion" outputproperty="revision" failifexecutionfails="false">
+			 <arg line="-n ." />
+		</exec>
+		<exec executable="${tool}/7-Zip/7z.exe" failifexecutionfails="true" outputproperty="sevenzip_output">
+			<arg line="a -mx=9 -m0=LZMA build/Dream-VIP-${revision}.7z ${dist}/*" />
+		</exec>
+	</target>
+	
+</project>
