@@ -1,5 +1,4 @@
 # L2jDreamV2 Source r235 (com SpGuard 3)
-
 ===
 
 L2JDream V2 é um projeto de emulador L2J ( Lineage 2 Java ) feito em Java e Python.
