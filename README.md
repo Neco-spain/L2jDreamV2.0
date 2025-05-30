@@ -14,7 +14,7 @@ A Dream V2 teve seu desenvolvimento iniciado no ano de 2012 e encerrado em Dezem
 
 Requirements
 ---
-- Windows or Linux Operating System **with Java JDK 8 and MySQL 5.+**.
+- Windows or Linux Operating System **with Java JDK 8 and MySQL 5.7**.
 - At least 4 GB of RAM and 2 Cores.
 - Ports 2106 TCP and 7777 TCP opened in all firewalls if you want the server to be accessible to the public.
 - Interlude client fully updated.
