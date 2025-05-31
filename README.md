@@ -20,3 +20,5 @@ Requirements
 - Interlude client fully updated.
 
 > It is not recommended to run, for a public server, the server and also one or several clients concurrently on the same machine, regardless of the performance it has (except for development tasks), as well as running the server on operating systems under a platform other than server type.
+
+GRUPO WHATSAPP PARA A L2JDREAM V2.0 -> https://chat.whatsapp.com/FBGj81Tbhan5CRL9bQe5dC
