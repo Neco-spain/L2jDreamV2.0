@@ -12,6 +12,9 @@ Podem utilizar GRATUITAMENTE esta source completa sem precisar de licenca caso N
 
 A Dream V2 teve seu desenvolvimento iniciado no ano de 2012 e encerrado em Dezembro de 2019.
 
+GRUPO WHATSAPP PARA A L2JDREAM V2.0 -> https://chat.whatsapp.com/FBGj81Tbhan5CRL9bQe5dC
+---
+
 Requirements
 ---
 - Windows or Linux Operating System **with Java JDK 8 and MySQL 5.7**.
@@ -21,4 +24,3 @@ Requirements
 
 > It is not recommended to run, for a public server, the server and also one or several clients concurrently on the same machine, regardless of the performance it has (except for development tasks), as well as running the server on operating systems under a platform other than server type.
 
-GRUPO WHATSAPP PARA A L2JDREAM V2.0 -> https://chat.whatsapp.com/FBGj81Tbhan5CRL9bQe5dC
